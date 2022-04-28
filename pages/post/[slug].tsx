@@ -17,7 +17,7 @@ interface Props {
   post: Post
 }
 
-const Post : React.FC = ({ post } : Props)=>{
+const Post : React.FC<Props> = ({ post })=>{
 
   const [submitted, setSubmitted] = useState(false)
 
